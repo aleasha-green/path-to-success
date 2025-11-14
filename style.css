@@ -68,11 +68,18 @@ body {
 header {
     color: var(--white);
     text-align: center;
+    padding: 30px;
 }
 
 h1 {
     font-family: 'Kavoon', Times, serif;
     font-size: 3em;
+    padding-bottom: 15px;
+}
+
+header p {
+    font-style: italic;
+    padding-bottom: 15px;
 }
 
 /* nav styles */
@@ -80,17 +87,27 @@ nav {
     background-color: var(--yellow);
     text-transform: uppercase;
     text-align: center;
+    padding: 10px;
 }
 
 nav h2 {
     font-family: 'Inter', Helvetica, sans-serif;
     font-size: 1.5em;
     color: var(--dark-gray);
+    font-style: italic;
+    font-weight: bold;
 }
 
 nav li {
     color: var(--purple);
+    font-weight: bold;
     background-color: var(--white);
+    margin: 10px;
+    padding: 15px;
+}
+
+nav a {
+    text-decoration: none;
 }
 
 /* main styles */
@@ -112,6 +129,9 @@ h4 {
 
 #services div {
     background-color: var(--white);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
 }
 
 #why-choose-us {
@@ -120,6 +140,23 @@ h4 {
 
 #why-choose-us li {
     padding: 20px;
+    display: inline-block;
+}
+
+#why-choose-us li:nth-of-type(1) {
+    background-color: var(--teal);
+}
+
+#why-choose-us li:nth-of-type(2) {
+    background-color: var(--lavender);
+}
+
+#why-choose-us li:nth-of-type(3) {
+    background-color: var(--yellow);
+}
+
+#why-choose-us li:nth-of-type(4) {
+    background-color: var(--white);
 }
 
 th {
