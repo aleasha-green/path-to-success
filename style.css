@@ -59,14 +59,16 @@ table {
 
 /* GLOBAL STYLES (mobile first/small) */
 body {
-    background-color: var(--purple);
+    background-color: var(--lavender);
     color: var(--dark-gray);
     font-family: 'Inter', Helvetica, sans-serif;
     max-width: 450px;
+    margin: 0 auto;
 }
 
 /* header */
 header {
+    background-color: var(--purple);
     color: var(--white);
     padding: 30px;
     text-align: center;
@@ -113,6 +115,7 @@ nav a {
 /* main */
 section {
     padding: 15px;
+    background-color: var(--purple);
 }
 
 h2 {
@@ -191,6 +194,10 @@ table {
     margin: 0 auto 10px;
 }
 
+table:last-of-type {
+    margin-bottom: 0;
+}
+
 th {
     font-weight: bold;
     padding: 15px;
@@ -216,7 +223,7 @@ td {
     color: var(--dark-gray);
     display: block;
     font-weight: bold;
-    margin: 20px auto;
+    margin: 20px auto 0px;
     padding: 20px;
     text-align: center;
     text-decoration: none;
@@ -225,6 +232,7 @@ td {
 
 /* footer */
 footer {
+    background-color: var(--purple);
     color: var(--white);
     display: grid;
     grid-template-columns: repeat(2,1fr);
