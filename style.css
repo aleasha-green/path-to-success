@@ -96,6 +96,7 @@ nav h2 {
     color: var(--dark-gray);
     font-style: italic;
     font-weight: bold;
+    padding: 0;
 }
 
 nav li {
@@ -120,12 +121,15 @@ h2 {
     font-family: 'Kavoon', Times, serif;
     font-size: 2em;
     color: var(--white);
+    padding: 15px;
 }
 
 h3 {
     font-size: 1.5em;
     color: var(--yellow);
     font-weight: bold;
+    padding-bottom: 15px;
+    padding-left: 15px;
 }
 
 h4 {
@@ -142,23 +146,23 @@ p {
 #services div {
     background-color: var(--white);
     padding: 20px;
-    margin: 15px;
+    margin: 0 20px 20px 20px;
     border-radius: 10px;
 }
 
 #why-choose-us {
     background-color: var(--pink);
-    padding: 15px;
 }
 
 #why-choose-us ul {
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 15px;
+    padding: 0 15px 15px;
 }
 
 #why-choose-us li {
-    padding: 30px;
+    padding: 35px;
     border-radius: 10px;
     text-align: center;
     font-weight: bold;
@@ -180,12 +184,21 @@ p {
     background-color: var(--white);
 }
 
-th {
+table {
+    margin: 0 auto 10px;
     background-color: var(--yellow);
+}
+
+th {
+    padding: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 td {
     background-color: var(--white);
+    padding: 15px;
+    border: 2px solid var(--yellow);
 }
 
 #take-the-first-step {
