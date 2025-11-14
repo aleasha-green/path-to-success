@@ -64,6 +64,7 @@ body {
     background-color: var(--purple);
 }
 
+/* header styles */
 header {
     color: var(--white);
 }
@@ -74,18 +75,23 @@ h1 {
     color: var(--white);
 }
 
+/* nav styles */
 nav {
     background-color: var(--yellow);
 }
 
 nav h2 {
+    font-family: 'Inter', Helvetica, sans-serif;
     font-size: 1.5em;
+    color: var(--dark-gray);
 }
 
 nav a {
     color: var(--purple);
+    text-transform: uppercase;
 }
 
+/* main styles */
 h2 {
     font-family: 'Kavoon', Times, serif;
     font-size: 2em;
