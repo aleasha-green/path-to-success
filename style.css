@@ -61,26 +61,60 @@ table {
 body {
     font-family: 'Inter', Helvetica, sans-serif;
     max-width: 450px;
+    background-color: var(--purple);
+}
+
+header {
+    color: var(--white);
 }
 
 h1 {
     font-family: 'Kavoon', Times, serif;
     font-size: 3em;
+    color: var(--white);
 }
 
-h2 {
-    font-family: 'Kavoon', Times, serif;
-    font-size: 2em;
+nav {
+    background-color: var(--yellow);
 }
 
 nav h2 {
     font-size: 1.5em;
 }
 
+nav a {
+    color: var(--purple);
+}
+
+h2 {
+    font-family: 'Kavoon', Times, serif;
+    font-size: 2em;
+    color: var(--white);
+}
+
 h3 {
     font-size: 1.5em;
+    color: var(--yellow);
 }
 
 h4 {
     font-size: 1.15em;
+    color: var(--purple);
+}
+
+#why-choose-us {
+    background-color: var(--pink);
+}
+
+th {
+    background-color: var(--yellow);
+}
+
+#take-the-first-step {
+    color: var(--white);
+}
+
+footer {
+    background-color: var(--pink);
+    color: var(--white);
 }
