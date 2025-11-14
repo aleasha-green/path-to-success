@@ -87,7 +87,7 @@ nav {
     background-color: var(--yellow);
     text-transform: uppercase;
     text-align: center;
-    padding: 10px;
+    padding: 15px;
 }
 
 nav h2 {
@@ -111,6 +111,11 @@ nav a {
 }
 
 /* main styles */
+/*main {
+    padding: 15px;
+}
+*/
+
 h2 {
     font-family: 'Kavoon', Times, serif;
     font-size: 2em;
@@ -120,27 +125,43 @@ h2 {
 h3 {
     font-size: 1.5em;
     color: var(--yellow);
+    font-weight: bold;
 }
 
 h4 {
     font-size: 1.15em;
     color: var(--purple);
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+p {
+    line-height: 1.5em;
 }
 
 #services div {
     background-color: var(--white);
     padding: 20px;
-    margin: 20px;
+    margin: 15px;
     border-radius: 10px;
 }
 
 #why-choose-us {
     background-color: var(--pink);
+    padding: 15px;
+}
+
+#why-choose-us ul {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
 }
 
 #why-choose-us li {
-    padding: 20px;
-    display: inline-block;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
 }
 
 #why-choose-us li:nth-of-type(1) {
