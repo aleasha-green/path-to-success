@@ -59,16 +59,17 @@ table {
 
 /* GLOBAL STYLES (mobile first/small) */
 body {
+    background-color: var(--purple);
+    color: var(--dark-gray);
     font-family: 'Inter', Helvetica, sans-serif;
     max-width: 450px;
-    background-color: var(--purple);
 }
 
-/* header styles */
+/* header */
 header {
     color: var(--white);
-    text-align: center;
     padding: 30px;
+    text-align: center;
 }
 
 h1 {
@@ -79,30 +80,28 @@ h1 {
 
 header p {
     font-style: italic;
-    padding-bottom: 15px;
 }
 
-/* nav styles */
+/* nav */
 nav {
     background-color: var(--yellow);
     text-transform: uppercase;
     text-align: center;
     padding: 15px;
+    font-weight: bold;
 }
 
 nav h2 {
+    color: var(--dark-gray);
     font-family: 'Inter', Helvetica, sans-serif;
     font-size: 1.5em;
-    color: var(--dark-gray);
     font-style: italic;
-    font-weight: bold;
     padding: 0;
 }
 
 nav li {
-    color: var(--purple);
-    font-weight: bold;
     background-color: var(--white);
+    color: var(--purple);
     margin: 10px;
     padding: 15px;
 }
@@ -111,50 +110,47 @@ nav a {
     text-decoration: none;
 }
 
-/* main styles */
-/*main {
-    padding: 15px;
-}
-*/
-
+/* main */
 section {
     padding: 15px;
 }
 
 h2 {
+    color: var(--white);
     font-family: 'Kavoon', Times, serif;
     font-size: 2em;
-    color: var(--white);
     padding-bottom: 10px;
-    /* padding: 15px; */
+}
+
+h3, h4 {
+    font-weight: bold;
+    padding-bottom: 10px;
 }
 
 h3 {
-    font-size: 1.5em;
     color: var(--yellow);
-    font-weight: bold;
-    padding-bottom: 10px;
-    /* padding-left: 15px; */
+    font-size: 1.5em;
+    
 }
 
 h4 {
-    font-size: 1.15em;
     color: var(--purple);
-    font-weight: bold;
-    padding-bottom: 10px;
+    font-size: 1.15em;
 }
 
 p {
     line-height: 1.5em;
 }
 
+/* #services */
 #services div {
     background-color: var(--white);
-    padding: 20px;
-    margin: 0 20px 20px 20px;
     border-radius: 15px;
+    margin: 0 20px 20px 20px;
+    padding: 20px;
 }
 
+/* #why-choose-us */
 #why-choose-us {
     background-color: var(--pink);
 }
@@ -163,17 +159,14 @@ p {
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 15px;
-    /*
-    padding: 0 15px 15px;
-    */
     padding: 5px;
 }
 
 #why-choose-us li {
-    padding: 35px;
     border-radius: 15px;
-    text-align: center;
     font-weight: bold;
+    padding: 35px;
+    text-align: center;
 }
 
 #why-choose-us li:nth-of-type(1) {
@@ -192,55 +185,50 @@ p {
     background-color: var(--white);
 }
 
+/* #prices */
 table {
-    margin: 0 auto 10px;
     background-color: var(--yellow);
+    margin: 0 auto 10px;
 }
 
 th {
-    padding: 15px;
     font-weight: bold;
+    padding: 15px;
     text-transform: uppercase;
 }
 
 td {
     background-color: var(--white);
-    padding: 15px;
     border: 2px solid var(--yellow);
+    padding: 15px;
 }
 
+/* #take-the-first-step */
 #take-the-first-step {
     background-color: var(--pink);
     color: var(--white);
 }
 
-/*
-#take-the-first-step p {
-    padding: 0 15px;
-}
-*/
-
 #take-the-first-step a {
-    display: block;
-    text-align: center;
     background-color: var(--white);
-    padding: 20px;
-   /* margin: 0 20px; */
-    margin: 20px auto;
-    box-shadow: 5px 5px 3px var(--dark-gray);
     border-radius: 15px;
-    text-decoration: none;
+    box-shadow: 5px 5px 3px var(--dark-gray);
     color: var(--dark-gray);
+    display: block;
     font-weight: bold;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
     text-transform: uppercase;
 }
 
+/* footer */
 footer {
     color: var(--white);
-    padding: 50px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    /* gap: 15px; */
+    padding: 50px;
 }
 
 footer a {
