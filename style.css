@@ -67,17 +67,19 @@ body {
 /* header styles */
 header {
     color: var(--white);
+    text-align: center;
 }
 
 h1 {
     font-family: 'Kavoon', Times, serif;
     font-size: 3em;
-    color: var(--white);
 }
 
 /* nav styles */
 nav {
     background-color: var(--yellow);
+    text-transform: uppercase;
+    text-align: center;
 }
 
 nav h2 {
@@ -86,9 +88,9 @@ nav h2 {
     color: var(--dark-gray);
 }
 
-nav a {
+nav li {
     color: var(--purple);
-    text-transform: uppercase;
+    background-color: var(--white);
 }
 
 /* main styles */
@@ -108,16 +110,33 @@ h4 {
     color: var(--purple);
 }
 
+#services div {
+    background-color: var(--white);
+}
+
 #why-choose-us {
     background-color: var(--pink);
+}
+
+#why-choose-us li {
+    padding: 20px;
 }
 
 th {
     background-color: var(--yellow);
 }
 
+td {
+    background-color: var(--white);
+}
+
 #take-the-first-step {
     color: var(--white);
+}
+
+#take-the-first-step a {
+    background-color: var(--white);
+    padding: 20px;
 }
 
 footer {
